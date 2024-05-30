@@ -1,12 +1,18 @@
 [versions]
 agp = "8.3.0"
+coreKtx = "1.13.1"
+mediaVersion = "1.0.0-alpha01"
 playServicesWearable = "18.1.0"
 appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+speech = "0.9.3"
 
 [libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-media = { module = "androidx.medialib:media", version.ref = "mediaVersion" }
+androidx-speech = { module = "androidx.speech:speech", version.ref = "speech" }
 play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
