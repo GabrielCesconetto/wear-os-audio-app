@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ListaDeTarefas"
+rootProject.name = "DomaAudio"
 include(":app")
